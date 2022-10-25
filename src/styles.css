@@ -18,6 +18,13 @@
   background-color: var(--primary-color);
 }
 
+/*CONTACT PAGE*/
+.body-h1 {
+  font-size: 64px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
 /*FOOTER INDEX-ABOUT-WORK-CONTACT*/
 .footer-bg {
   background-color: var(--primary-color);
