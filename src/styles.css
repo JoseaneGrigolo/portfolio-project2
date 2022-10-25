@@ -18,10 +18,23 @@
   background-color: var(--primary-color);
 }
 
-/*CONTACT PAGE*/
+/*CONTACT - WORK PAGE*/
 .body-h1 {
   font-size: 64px;
   margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+/*WORK PAGE*/
+.body-h3 {
+  font-size: 24px;
+}
+
+.body-p {
+  font-size: 14px;
+}
+
+.work-body {
   margin-bottom: 150px;
 }
 
