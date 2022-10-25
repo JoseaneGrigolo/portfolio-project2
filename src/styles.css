@@ -18,7 +18,7 @@
   background-color: var(--primary-color);
 }
 
-/*CONTACT - WORK PAGE*/
+/*CONTACT-WORK PAGE*/
 .body-h1 {
   font-size: 64px;
   margin-top: 150px;
@@ -38,6 +38,21 @@
   margin-bottom: 150px;
 }
 
+/*ABOUT PAGE*/
+.body-about {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.about-h1 {
+  font-size: 64px;
+}
+.about-h4 {
+  font-size: 18px;
+}
+.about-p {
+  font-size: 16px;
+  padding-right: 150px;
+}
 /*FOOTER INDEX-ABOUT-WORK-CONTACT*/
 .footer-bg {
   background-color: var(--primary-color);
@@ -51,6 +66,7 @@
   font-size: 18px;
 }
 
+/*Footer - About*/
 .button-bg {
   background-color: var(--secondary-color);
   color: white;
