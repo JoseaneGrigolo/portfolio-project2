@@ -18,6 +18,30 @@
   background-color: var(--primary-color);
 }
 
+/*INDEX PAGE*/
+.index-h3 {
+  font-size: 36px;
+}
+
+.index-h1 {
+  font-size: 96px;
+}
+
+.body-index {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--primary-color);
+}
+
+.button-index {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  font-size: 18px;
+  padding: 18px 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+
 /*CONTACT-WORK PAGE*/
 .body-h1 {
   font-size: 64px;
@@ -26,6 +50,7 @@
 }
 
 /*WORK PAGE*/
+/*Index-Work*/
 .body-h3 {
   font-size: 24px;
 }
@@ -39,20 +64,27 @@
 }
 
 /*ABOUT PAGE*/
+/*About - Index*/
 .body-about {
   margin-top: 150px;
   margin-bottom: 150px;
 }
+
+/*Index-About*/
 .about-h1 {
   font-size: 64px;
 }
+
 .about-h4 {
   font-size: 18px;
 }
+
+/*Index-About*/
 .about-p {
   font-size: 16px;
   padding-right: 150px;
 }
+
 /*FOOTER INDEX-ABOUT-WORK-CONTACT*/
 .footer-bg {
   background-color: var(--primary-color);
@@ -66,7 +98,7 @@
   font-size: 18px;
 }
 
-/*Footer - About*/
+/*Footer - About - Index*/
 .button-bg {
   background-color: var(--secondary-color);
   color: white;
