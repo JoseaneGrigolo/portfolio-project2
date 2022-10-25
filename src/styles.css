@@ -148,6 +148,10 @@
 }
 
 @media (max-width: 450px) {
+  .logo {
+    height: 80%;
+    width: 80%;
+  }
   /*CONTACT*/
   .footer-h2 {
     font-size: 28px;
@@ -159,10 +163,21 @@
 
   .body-h1 {
     font-size: 34px;
+    text-align: center;
   }
   .button-bg {
     font-size: 14px;
     padding: 12px 18px;
+  }
+
+  /*WORK*/
+  .body-h3 {
+    font-size: 20px;
+  }
+
+  /*ABOUT*/
+  .photo {
+    display: none;
   }
 }
 
@@ -178,5 +193,6 @@
 
   .body-h1 {
     font-size: 24px;
+    text-align: center;
   }
 }
