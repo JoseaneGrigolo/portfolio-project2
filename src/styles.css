@@ -69,6 +69,10 @@
   border-radius: 20px;
 }
 
+.icon-color {
+  color: var(--secondary-color);
+}
+
 /*ABOUT PAGE*/
 /*About - Index*/
 .body-about {
@@ -85,6 +89,10 @@
 
 .about-h4 {
   font-size: 18px;
+}
+
+.btn-margin {
+  margin-top: 50px;
 }
 
 /*Index-About*/
