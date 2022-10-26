@@ -90,7 +90,6 @@
 /*Index-About*/
 .about-p {
   font-size: 16px;
-  padding-right: 150px;
 }
 
 /*FOOTER INDEX-ABOUT-WORK-CONTACT*/
@@ -132,10 +131,6 @@
   .about-h1 {
     font-size: 38px;
   }
-  .about-p {
-    font-size: 14px;
-    padding-right: 10px;
-  }
 
   .button-bg,
   .button-index {
@@ -154,12 +149,6 @@
 
 @media (max-width: 768px) {
   /*INDEX*/
-  .about-p {
-    display: none;
-  }
-  .button-index {
-    margin-top: 50px;
-  }
   .align-index {
     text-align: center;
   }
