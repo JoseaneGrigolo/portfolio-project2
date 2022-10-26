@@ -41,6 +41,7 @@
   background-color: white;
   border-radius: 5px;
   text-decoration: none;
+  margin-top: 50px;
 }
 
 /*CONTACT-WORK PAGE*/
@@ -124,20 +125,58 @@
   padding: 4px 8px;
 }
 
+@media (max-width: 1200px) {
+  /*INDEX-ABOUT*/
+  .about-h1 {
+    font-size: 38px;
+  }
+  .about-p {
+    font-size: 14px;
+    padding-right: 10px;
+  }
+
+  .button-bg,
+  .button-index {
+    font-size: 16px;
+    padding: 15px 25px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  /*ABOUT*/
+  .about-h1 {
+    font-size: 28px;
+  }
+}
+
 @media (max-width: 768px) {
+  /*INDEX*/
+  .about-p {
+    display: none;
+  }
+  .button-index {
+    margin-top: 50px;
+  }
+  .align-index {
+    text-align: center;
+  }
   /*CONTACT*/
   .button-bg {
     font-size: 16px;
     padding: 15px 20px;
   }
+  /*Index-About-Contact*/
+  .about-h1,
   .footer-h2 {
-    font-size: 38px;
+    font-size: 30px;
   }
-
+  .about-h4,
   .footer-p {
     font-size: 16px;
   }
-
+  /*Index-About*/
+  .index-h1,
   .body-h1 {
     font-size: 54px;
   }
@@ -147,12 +186,25 @@
   }
 }
 
+@media (max-width: 576px) {
+  /*INDEX*/
+  .img-index {
+    display: none;
+  }
+
+  /*ABOUT*/
+  .body-about {
+    text-align: center;
+  }
+}
+
 @media (max-width: 450px) {
   .logo {
     height: 80%;
     width: 80%;
   }
-  /*CONTACT*/
+  /*INDEX-CONTACT*/
+  .index-h3,
   .footer-h2 {
     font-size: 28px;
   }
@@ -161,10 +213,13 @@
     font-size: 14px;
   }
 
+  .index-h1,
   .body-h1 {
     font-size: 34px;
     text-align: center;
   }
+
+  .button-index,
   .button-bg {
     font-size: 14px;
     padding: 12px 18px;
@@ -173,11 +228,6 @@
   /*WORK*/
   .body-h3 {
     font-size: 20px;
-  }
-
-  /*ABOUT*/
-  .photo {
-    display: none;
   }
 }
 
@@ -190,7 +240,8 @@
   .footer-p {
     font-size: 12px;
   }
-
+  /*Index-Contact*/
+  .about-h1,
   .body-h1 {
     font-size: 24px;
     text-align: center;
