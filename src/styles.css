@@ -75,7 +75,9 @@
   margin-top: 150px;
   margin-bottom: 150px;
 }
-
+.photo {
+  border-radius: 20px;
+}
 /*Index-About*/
 .about-h1 {
   font-size: 64px;
